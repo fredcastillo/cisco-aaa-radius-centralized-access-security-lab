@@ -60,10 +60,6 @@ Las capturas concretas que completarán la evidencia son: conectividad actual R1
 
 ![Evento NPS de éxito](../images/20-nps-evento-6272-sw1-l5.png)
 
-*Todos estos archivos son marcadores visuales explícitos. Se deben reemplazar por salidas reales; no constituyen evidencia de una prueba ejecutada.*
-
-
-
 ## 6. Reglas para mantener la evidencia fiable
 
 - No inventes ni reconstruyas salidas de consola, eventos NPS o resultados de autenticación.
