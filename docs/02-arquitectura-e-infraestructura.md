@@ -4,8 +4,6 @@
 
 ![Topología lógica](../images/01-topologia-general.png)
 
-*Figura 1. Diagrama conceptual con las conexiones conocidas. La captura real de GNS3 se insertará en `images/05-gns3-topologia-real.png` y se mostrará aquí automáticamente porque el enlace ya está preparado.*
-
 La topología opera en el mismo segmento IPv4 `10.21.75.0/24`. R1 tiene `10.21.75.1/24` en `GigabitEthernet1/0`; SW1 tiene `10.21.75.2/24` en `Vlan1`; JUMP-SRV tiene `10.21.75.10/24`; el cliente SSH Linux tiene `10.21.75.110` según el inventario compartido.
 
 ## Inventario
@@ -40,6 +38,4 @@ La topología opera en el mismo segmento IPv4 `10.21.75.0/24`. R1 tiene `10.21.7
 
 ![Espacio reservado para la captura real de GNS3](../images/05-gns3-topologia-real.png)
 
-*Figura 2. Este PNG es, por ahora, un marcador explícito; sustituirlo por una captura real de la topología antes de publicar.*
-
-El procedimiento exacto se describe en [Plan de capturas](../images/PLAN-DE-CAPTURAS.md).
+*Figura 2*
