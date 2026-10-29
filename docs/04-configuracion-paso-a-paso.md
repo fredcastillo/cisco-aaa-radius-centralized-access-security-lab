@@ -1,7 +1,5 @@
 # 04. Configuración paso a paso
 
-Este runbook describe la configuración lógica conocida. Está orientado a reproducir y comprobar el laboratorio existente sin rehacerlo ni sobrescribir secretos. No pegues comandos de configuración sin contrastarlos con el estado actual del equipo.
-
 ## 1. Preparación del entorno
 
 1. Inicia el proyecto en GNS3 y verifica que R1, SW1, JUMP-SRV y el cliente Linux están encendidos y conectados.
@@ -10,7 +8,7 @@ Este runbook describe la configuración lógica conocida. Está orientado a repr
 
 ![Topología real de GNS3: marcador hasta reemplazar](../images/05-gns3-topologia-real.png)
 
-*Figura 1. Sustituye la imagen por la captura de GNS3 con todos los nodos y enlaces visibles; no es necesario volver a crear el diagrama conceptual.*
+*Figura 1*
 
 ## 2. Active Directory
 
@@ -35,7 +33,7 @@ Los secretos se han configurado por separado y no se documentan. No captures ni 
 
 ![Lista real de clientes RADIUS](../images/11-nps-clientes-radius.png)
 
-*Figura 2. Espacio de evidencia para los clientes RADIUS R1 y SW1; reemplaza el marcador después de capturar la lista en NPS.*
+*Figura 2. Espacio de evidencia para los clientes RADIUS R1 y SW1.*
 
 
 ## 4. Políticas de red NPS
@@ -44,7 +42,7 @@ Las seis políticas conocidas son `CISCO-R1-L0/L5/L10` y `CISCO-SW1-L0/L5/L10`. 
 
 ![Lista real de políticas NPS](../images/08-nps-politicas-red.png)
 
-*Figura 3. Captura real de NPS aportada para documentar la lista y el orden visible. Para demostrar el parámetro de una política concreta, sigue las evidencias 12 y 13 del plan de capturas.*
+*Figura 3. Captura real de NPS aportada para documentar la lista y el orden visible.*
 
 ### Corrección importante para `CISCO-SW1-L5`
 
