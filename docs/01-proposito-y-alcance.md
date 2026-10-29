@@ -6,7 +6,7 @@ Construir y validar un mecanismo de control de acceso administrativo centralizad
 
 ![Flujo lógico del laboratorio](../images/03-flujo-aaa-radius.png)
 
-*Figura 1. Flujo conceptual de SSH, AAA y RADIUS. Es un diagrama explicativo, no una captura de consola.*
+*Figura 1. Flujo conceptual de SSH, AAA y RADIUS. Es un diagrama explicativo.*
 
 ## Objetivos específicos
 
