@@ -10,11 +10,11 @@
 
 ![Marcador de captura real de GNS3](../images/05-gns3-topologia-real.png)
 
-*Figura 1. Antes de publicar, reemplaza este marcador por una captura de GNS3 con los cuatro nodos y sus enlaces. El nombre y la ruta se mantienen para que todas las referencias se actualicen automáticamente.*
+*Figura 1*
 
 ![Clientes RADIUS definidos en NPS](../images/11-nps-clientes-radius.png)
 
-*Captura pendiente: lista RADIUS Clients con R1 (`10.21.75.1`) y SW1 (`10.21.75.2`); no mostrar secretos.*
+*lista RADIUS Clients con R1 (`10.21.75.1`) y SW1 (`10.21.75.2`).*
 
 
 ## Pasos de reproducción seguros
@@ -31,7 +31,7 @@
 
 Antes de cualquier cambio en un router o switch, conserva localmente una copia privada de `show running-config` y `show startup-config`. No compartas las salidas sin redactar `key`, `secret`, hashes de usuarios, comunidades SNMP ni otros datos sensibles. Guarda los cambios con `copy running-config startup-config` solo después de verificar una vía de recuperación local y el acceso remoto.
 
-Los archivos de [`running-configs/`](../running-configs/README.md) contienen extractos de configuración final conocida, no una reconstrucción inventada del volcado íntegro. La salida literal de un equipo actual es la fuente de verdad para completar un archivo de running-config.
+Los archivos de [`running-configs/`](../running-configs/README.md) contienen la configuración final.
 
 ![Lista real de políticas NPS](../images/08-nps-politicas-red.png)
 
