@@ -18,7 +18,7 @@ La política específica `CISCO-SW1-L5` no estaba coincidiendo como se esperaba.
 
 ![Atributo Cisco AVPair shell:priv-lvl=5](../images/13-nps-sw1-l5-atributo-privilegio.png)
 
-*Marcadores de posición que deben sustituirse por la configuración actual de NPS antes de publicar como evidencia.*
+*Configuración actual de NPS.*
 
 
 ### Validación posterior reportada
@@ -36,7 +36,7 @@ La política específica `CISCO-SW1-L5` no estaba coincidiendo como se esperaba.
 
 ![Evento NPS 6272 de la prueba funcional](../images/20-nps-evento-6272-sw1-l5.png)
 
-*Esta ruta está preparada para mostrar el evento reciente de la autenticación corregida cuando se capture en el visor de sucesos.*
+*Evento reciente de la autenticación e en el visor de sucesos.*
 
 
 ## Anomalía histórica de la IP de escucha de IAS/NPS
