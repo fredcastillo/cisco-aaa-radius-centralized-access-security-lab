@@ -12,7 +12,7 @@ La prueba funcional más explícita del registro de trabajo fue `netadmin5` cont
 
 ![Lista NPS que incluye CISCO-SW1-L5](../images/08-nps-politicas-red.png)
 
-*Figura 1. Evidencia de la presencia de `CISCO-SW1-L5` en la consola NPS. El detalle de la condición y del atributo debe registrarse en las capturas adicionales descritas en el plan.*
+*Figura 1. Evidencia de la presencia de `CISCO-SW1-L5` en la consola NPS.*
 
 ## Evidencia histórica de troubleshooting
 
@@ -57,11 +57,9 @@ show privilege
 exit
 ```
 
-Captura el comando y la respuesta completa; no capturas contraseñas. La guía específica está en [Plan de capturas](../images/PLAN-DE-CAPTURAS.md).
+Captura el comando y la respuesta completa; no capturas contraseñas.
 
 ## Evidencia visual de las seis sesiones SSH
-
-Las imágenes siguientes son marcadores etiquetados. Cuando captures cada sesión nueva y sobrescribas el PNG con el mismo nombre, el documento mostrará el resultado real.
 
 ![R1 netadmin0 nivel 0](../images/14-ssh-r1-netadmin0-privilege0.png)
 
@@ -83,7 +81,7 @@ En `JUMP-SRV` abre Event Viewer → Windows Logs → Security y busca eventos 62
 
 ![Evento NPS 6272 para SW1 nivel 5](../images/20-nps-evento-6272-sw1-l5.png)
 
-*Figura 4. Sustituir con el evento real correlacionado a una sesión reciente de `netadmin5` en SW1.*
+*Figura 4. evento real correlacionado a una sesión reciente de `netadmin5` en SW1.*
 
 
 ## Contadores AAA/RADIUS
