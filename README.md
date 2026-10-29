@@ -11,9 +11,7 @@
 
 </div>
 
-## La topología real del laboratorio
-
-La primera evidencia visual que debe ver quien visite este repositorio es la captura real del proyecto abierto en GNS3. El archivo siguiente es un **marcador de sustitución**, identificado como tal y no como evidencia. Cuando tomes la captura siguiendo [`images/PLAN-DE-CAPTURAS.md`](images/PLAN-DE-CAPTURAS.md), sobrescribe `images/05-gns3-topologia-real.png`; el README y los documentos mostrarán automáticamente la foto real sin cambiar sus enlaces.
+## Topología
 
 <p align="center">
   <img src="images/05-gns3-topologia-real.png" alt="Marcador pendiente de reemplazar por la captura real de la topología del laboratorio en GNS3" width="100%">
