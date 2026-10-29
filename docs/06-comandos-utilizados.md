@@ -30,8 +30,6 @@ show interfaces trunk
 
 ![Verificación de conectividad real en SW1](../images/10-sw1-conectividad.png)
 
-*Los dos espacios están enlazados a los nombres definitivos de las capturas reales.*
-
 
 ## Estado AAA/RADIUS y privilegio
 
