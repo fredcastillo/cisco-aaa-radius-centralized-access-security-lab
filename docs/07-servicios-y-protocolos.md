@@ -2,7 +2,7 @@
 
 ![Arquitectura conceptual de los servicios](../images/02-infraestructura-laboratorio.png)
 
-*Figura 1. Diagrama conceptual de los componentes Windows implicados; no representa una captura de la consola de administración.*
+*Figura 1. Diagrama conceptual de los componentes Windows implicados.*
 
 ## AAA
 
@@ -36,7 +36,7 @@ El dominio `jumpserver.lab` centraliza los grupos:
 
 ![Atributo Cisco AVPair en NPS](../images/13-nps-sw1-l5-atributo-privilegio.png)
 
-*Espacio para evidencia real del atributo que determina el nivel EXEC de SW1.*
+*Evidencia real del atributo que determina el nivel EXEC de SW1.*
 
 
 ## SSH
@@ -51,7 +51,7 @@ El acceso remoto usa OpenSSH desde un contenedor Linux. El script de este reposi
 
 ![Vista de las políticas de red NPS](../images/08-nps-politicas-red.png)
 
-*Figura 3. Captura real de la lista de políticas. Para demostrar una autorización efectiva, debe correlacionarse con el evento individual y la sesión SSH.*
+*Figura 3. Lista de políticas. Para demostrar una autorización efectiva, debe correlacionarse con el evento individual y la sesión SSH.*
 
 ## Consideraciones de seguridad
 
