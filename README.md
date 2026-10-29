@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="./images/CISCO_AAA_Futuristic_Banner/cisco-aaa-radius-centralized-access-security-banner.gif"
+  <img src="./images/cisco-aaa-radius-centralized-access-security-banner.gif"
        alt="Cisco AAA & RADIUS Centralized Access Security Lab"
        width="100%">
 </p>
