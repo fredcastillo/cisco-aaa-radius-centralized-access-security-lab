@@ -4,10 +4,15 @@
 
 **Control de acceso administrativo centralizado para Cisco IOS/IOSvL2 con Active Directory y Windows NPS**
 
-![Estado](https://img.shields.io/badge/estado-laboratorio%20documentado-blue)
-![Plataforma](https://img.shields.io/badge/plataforma-GNS3-6B9BD2)
-![AAA](https://img.shields.io/badge/AAA-RADIUS%20%2B%20NPS-1D8A68)
-![Documentaci%C3%B3n](https://img.shields.io/badge/docs-espa%C3%B1ol-orange)
+<p align="center">
+  <a href="https://github.com/fredcastillo/cisco-aaa-radius-lab"><img src="https://img.shields.io/badge/Laboratorio-GNS3-7d5fff?style=for-the-badge" alt="GNS3"></a>
+  <a href="https://github.com/fredcastillo/cisco-aaa-radius-lab"><img src="https://img.shields.io/badge/Dispositivos-Cisco%20R1%20%2B%20SW1-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco"></a>
+  <a href="https://github.com/fredcastillo/cisco-aaa-radius-lab"><img src="https://img.shields.io/badge/Servidor-Windows%20Server%202019%20%7C%20NPS-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Windows NPS"></a>
+  <a href="https://github.com/fredcastillo/cisco-aaa-radius-lab"><img src="https://img.shields.io/badge/Identidad-Active%20Directory-2D72D9?style=for-the-badge" alt="Active Directory"></a>
+  <a href="https://github.com/fredcastillo/cisco-aaa-radius-lab"><img src="https://img.shields.io/badge/Protocolo-AAA%20%7C%20RADIUS%20%7C%20SSH-9C27B0?style=for-the-badge" alt="AAA RADIUS SSH"></a>
+  <a href="https://github.com/fredcastillo/cisco-aaa-radius-lab"><img src="https://img.shields.io/badge/Niveles%20de%20Privilegio-0%20%7C%205%20%7C%2010-FF6F00?style=for-the-badge" alt="Niveles de Privilegio"></a>
+  <a href="https://github.com/fredcastillo/cisco-aaa-radius-lab"><img src="https://img.shields.io/badge/Estado-Completado-brightgreen?style=for-the-badge" alt="Estado"></a>
+</p>
 
 </div>
 
