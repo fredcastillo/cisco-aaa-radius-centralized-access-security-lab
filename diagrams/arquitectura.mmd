@@ -1,0 +1,7 @@
+flowchart TB
+  U["Usuario de administración<br/>netadmin0 / netadmin5 / netadmin10"] -->|SSH| NAS["R1 o SW1<br/>AAA / VTY-LOGIN"]
+  NAS -->|Access-Request · UDP/1812| NPS["Windows Server 2019<br/>Network Policy Server"]
+  AD["Active Directory Domain Services<br/>GG_NET_LEVEL0 / LEVEL5 / LEVEL10"] --> NPS
+  NPS -->|Access-Accept + Cisco AVPair| NAS
+  NPS -. "Accounting · UDP/1813" .-> NAS
+  NAS -->|"shell:priv-lvl=0/5/10"| EXEC["Sesión EXEC autorizada"]

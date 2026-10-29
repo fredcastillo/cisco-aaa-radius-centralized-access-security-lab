@@ -1,0 +1,7 @@
+flowchart LR
+  C["Cliente Linux"] -->|"SSH 10.21.75.1"| R["R1"]
+  C -->|"SSH 10.21.75.2"| S["SW1"]
+  S -->|"RADIUS / PAP"| N["NPS: evento 6272<br/>CISCO-SW1-L5"]
+  R --> P["Verificar show privilege"]
+  S --> P
+  P --> V["Nivel 5 confirmado para netadmin5<br/>en SW1 tras corregir la política"]

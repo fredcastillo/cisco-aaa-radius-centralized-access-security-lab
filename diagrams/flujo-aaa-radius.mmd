@@ -1,0 +1,13 @@
+sequenceDiagram
+  participant U as Usuario SSH
+  participant D as Dispositivo Cisco
+  participant N as NPS
+  participant A as Active Directory
+  U->>D: SSH login
+  D->>N: RADIUS Access-Request
+  N->>A: Validar identidad y grupo
+  A-->>N: Resultado de directorio
+  N-->>D: Access-Accept / Access-Reject
+  Note over N,D: Access-Accept puede incluir Cisco AVPair shell:priv-lvl
+  D-->>U: Sesión EXEC según autorización
+  D->>N: Accounting Start / Stop (UDP 1813)

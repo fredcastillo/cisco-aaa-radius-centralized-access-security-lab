@@ -1,0 +1,13 @@
+flowchart TB
+  subgraph LAN["Red de gestión 10.21.75.0/24 · VLAN 1"]
+    R1["R1 · Cisco C7200<br/>Gi1/0 · 10.21.75.1/24"]
+    SW1["SW1 · Cisco IOSvL2<br/>Vlan1 · 10.21.75.2/24"]
+    SRV["JUMP-SRV · Windows Server 2019<br/>10.21.75.10/24<br/>AD DS + DNS + NPS"]
+    CLI["Cliente Linux / SSH<br/>10.21.75.110"]
+    R1 --- SW1
+    SW1 --- SRV
+    CLI -. "SSH" .-> R1
+    CLI -. "SSH" .-> SW1
+  end
+  R1 -. "RADIUS UDP 1812/1813" .-> SRV
+  SW1 -. "RADIUS UDP 1812/1813" .-> SRV

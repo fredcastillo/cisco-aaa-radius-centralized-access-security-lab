@@ -1,0 +1,7 @@
+device,ip,user,expected_privilege,known_status,evidence_file,last_verified_note
+R1,10.21.75.1,netadmin0,0,reportado_funcional,pendiente-repetir,El historial menciona prueba funcional; obtener captura nueva
+R1,10.21.75.1,netadmin5,5,reportado_funcional,pendiente-repetir,El historial menciona prueba funcional; obtener captura nueva
+R1,10.21.75.1,netadmin10,10,reportado_funcional,pendiente-repetir,El historial menciona prueba funcional; obtener captura nueva
+SW1,10.21.75.2,netadmin0,0,reportado_funcional,pendiente-repetir,El historial menciona prueba funcional; obtener captura nueva
+SW1,10.21.75.2,netadmin5,5,confirmado,pendiente-repetir,SSH y show privilege nivel 5 confirmados; NPS 6272 CISCO-SW1-L5
+SW1,10.21.75.2,netadmin10,10,reportado_funcional,pendiente-repetir,El historial menciona prueba funcional; obtener captura nueva

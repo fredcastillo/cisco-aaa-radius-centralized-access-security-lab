@@ -1,0 +1,35 @@
+! Cisco AAA & RADIUS Centralized Access Security Lab
+! Comandos de SOLO LECTURA. Ejecutar desde el prompt EXEC privilegiado de R1 y SW1.
+
+show version
+show ip interface brief
+show ip route
+show cdp neighbors
+show ip ssh
+show aaa servers
+show radius statistics
+show running-config | section aaa
+show running-config | section line
+show running-config | include ip radius source-interface
+
+! Solo en SW1:
+show vlan brief
+show interfaces trunk
+
+! Ejecutar dentro de una sesión SSH de cada usuario:
+show privilege
+
+! Datos de RADIUS confirmados:
+! JUMP-SRV / NPS = 10.21.75.10, auth UDP/1812, accounting UDP/1813
+! R1 = 10.21.75.1, source-interface GigabitEthernet1/0
+! SW1 = 10.21.75.2, source-interface Vlan1
+! Grupo AAA reportado: NPS-GROUP
+
+! Test interactivo, solo en consola local del equipo. Escribir la contraseña real
+! manualmente y no pegarla en el repositorio, chat, captura o historial compartido:
+! R1# test aaa group NPS-GROUP netadmin5 <CONTRASEÑA_LOCAL_NO_PUBLICAR> legacy
+! SW1# test aaa group NPS-GROUP netadmin5 <CONTRASEÑA_LOCAL_NO_PUBLICAR> legacy
+
+! Acciones con impacto, OMITIDAS por defecto: ejecutar solo en prueba controlada.
+! clear radius statistics
+! copy running-config startup-config
