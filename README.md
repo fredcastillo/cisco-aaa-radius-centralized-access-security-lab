@@ -31,13 +31,23 @@
 </p>
 
 <details>
-<summary>Vista conceptual complementaria (no es una captura de GNS3)</summary>
+<summary>Vista conceptual de GNS3</summary>
 
 <p align="center">
   <img src="images/01-topologia-general.png" alt="Diagrama lógico ilustrativo de la topología" width="100%">
 </p>
 </details>
 
+---
+## Video demostrativo
+
+<p align="center">
+  <a href="https://youtu.be/HYwoZdZ1CnQ">
+    <img src="https://img.youtube.com/vi/HYwoZdZ1CnQ/maxresdefault.jpg" alt="Ver la demostración de FortiGate SSL-VPN, Jump Server y RemoteApp" width="960">
+  </a>
+</p>
+
+---
 ## Resumen ejecutivo
 
 Este laboratorio virtual implementa autenticación administrativa centralizada para un router Cisco C7200 (R1) y un switch Cisco IOSvL2 (SW1). Windows Server 2019, en el dominio `jumpserver.lab`, presta servicios de Active Directory Domain Services (AD DS), DNS y Network Policy Server (NPS). NPS actúa como servidor RADIUS y utiliza grupos de Active Directory para distinguir tres niveles EXEC: **0, 5 y 10**.
